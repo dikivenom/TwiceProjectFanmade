@@ -1,0 +1,13 @@
+ <main> <!-- main content -->
+      <div><!-- Hero Section -->
+      <div>
+        <div>
+          <h2>TWICE</h2>
+          <h3>
+            <span>TWICE IS</span>
+          </h3>
+          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eligendi odio cumque sit ipsa dolores reiciendis possimus earum. Ad quae ipsum eum animi. Sapiente asperiores dolor laboriosam, quod impedit ullam nesciunt. Magni qui delectus error voluptas vel aperiam laboriosam dolorem.</p>
+        </div>
+        </div>
+      </div>
+    </main>

@@ -1,0 +1,94 @@
+<html class="!scroll-smooth">
+
+<div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Borel&family=Cormorant&family=Kalam:wght@300;400&family=Pixelify+Sans&family=Tajawal:wght@800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>TWC</title>
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body class="bg-gradient-to-t from-pink-100 to-amber-100">
+    
+
+  <div class="" id="home">
+    <header class="top-0 inset-x-0 lg:py-5 bg-transparent">
+      <nav class="p-3 bg-transparent md:flex md:items-center md:justify-between sticky">
+        <div class="flex justify-between items-center">
+          <span class="text-2xl font-Cormorant font-bold text-[#989284] cursor-pointer pt-1">
+            <img class="h-10 inline pb-3" src="images/logocoklat.png" alt="" />
+            TWICE
+          </span>
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+        <ul class="bg-amber-100 md:flex md:items-center z-[1] md:z-auto md:static absolute bg-transparent w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <li class="md:mx-4 font-Cormorant my-6 md:my-0">
+            <a href="index.html" class="text-xl hover:text-[#f5eee1] duration-300 text-[#989284] font-bold hover:text-pink-200">HOME</a>
+          </li>
+          <li class="mx-4 font-Cormorant my-6 md:my-0">
+            <a href="#poto" class="text-xl hover:text-[#f5eee1] duration-300 text-[#989284] font-bold hover:text-pink-200">PHOTO</a>
+          </li>
+          <li class="mx-4 font-Cormorant my-6 md:my-0">
+            <a href="#information" class="text-xl hover:text-[#f5eee1] duration-300 text-[#989284] font-bold hover:text-pink-200">INFORMATION</a>
+          </li>
+          <li class="mx-4 font-Cormorant my-6 md:my-0">
+            <a href="#ticket" class="text-xl hover:text-[#f5eee1] duration-300 text-[#989284] font-bold hover:text-pink-200">TICKET</a>
+          </li>
+
+          <a href="#ticket"><button class="bg-[#ffffff] text-[#989284] shadow-lg shadow-pink-200 px-6 py-2 hover:bg-pink-200 hover:text-white duration-300 rounded font-Cormorant font-bold">Buy Tickets</button></a>
+        </ul>
+      </nav>
+      <script>
+        function Menu(e) {
+          let list = document.querySelector('ul');
+          e.name === 'menu' ? ((e.name = 'close'), list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : ((e.name = 'menu'), list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'));
+        }
+      </script>
+    </header>
+
+    
+    <div class="">
+            <div class="mt-5 w-3/6  mx-auto  items-center grid grid-cols-1 gap-8 py-7 md:grid-cols-3 md:mx-auto md:gap-4 sm:w-3/6 sm:mt-2 sm:grid-cols-3 sm:gap-4">
+                    <img src="images/Nayeon.jpeg" alt="Nayeon" class="rounded-t-full border-[#58C2E7] border-8">
+                    <img src="images/Momo.jpeg" alt="Momo" class="rounded-t-full border-[#f8cfd7] border-8">
+                    <img src="images/Mina.jpeg" alt="Mina" class="rounded-t-full border-[#6FC5C2] border-8"">
+            </div>
+            <div class="mt-5 w-3/6  mx-auto  items-center grid grid-cols-1 gap-8 py-7 md:grid-cols-3 md:mx-auto md:gap-4 sm:w-3/6 sm:mt-2 sm:grid-cols-3 sm:gap-4">
+              <img src="images/Tzuyu.jpeg"  alt="Tzuyu" class="rounded-t-full border-[#016CBA] border-8">
+     
+                    <img src="images/Jihyo.jpeg" alt="Jihyo" class="rounded-t-full border-[#FFB74D] border-8">
+                    <img src="images/Chaeyoung.jpeg" alt="Chaeyoung" class="rounded-t-full border-[#E81933] border-8">
+                 
+            </div>
+
+            <div class="mt-5 w-3/6  mx-auto  items-center grid grid-cols-1 gap-8 py-7 md:grid-cols-3 md:mx-auto md:gap-4 sm:w-3/6 sm:mt-2 sm:grid-cols-3 sm:gap-4">
+              <img src="images/Jeongyeon.jpeg" alt="Jeongyeon" class="rounded-t-full border-[#BCD776] border-8">
+     
+                    <img src="images/Sana.jpeg" alt="Sana" class="rounded-t-full border-[#9FA8DA] border-8">
+                    <img src="images/Dahyun.jpeg" alt="Dahyun" class="rounded-t-full border-[#FFFFFF] border-8">
+                 
+            </div>
+
+
+        </div>
+
+
+  
+
+
+
+    <div class="mb-96"></div>
+  </div>
+  </body>
+</html>
