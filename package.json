@@ -2,9 +2,9 @@
   "name": "twice-tailwind",
   "version": "3.3.2",
   "description": "TWICE Project Fanmade",
-  "main": "/public/index.html",
+  "main": "/docs/index.html",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./docs/style.css --watch"
   },
   "keywords": [],
   "author": "",
