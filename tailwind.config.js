@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 /** 
  * @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js,img,jpg,jpeg,png}", "./public/images/**/*.{png,jpg,jpeg,gif,svg}"],
+  content: ["./docs/**/*.{html,js,img,jpg,jpeg,png}", "./public/images/**/*.{png,jpg,jpeg,gif,svg}"],
   theme: {
     extend: {
       textShadow: {
